@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My App"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:backgroundTint="#bababa"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add 1"
+        android:backgroundTint="#bababa" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:backgroundTint="#bababa"/>
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minus 1"
+        android:backgroundTint="#bababa"/>
+
+    <Button
+        android:id="@+id/btn_next_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Screen"
+        android:backgroundTint="#bababa"/>
+
+</LinearLayout>
+
